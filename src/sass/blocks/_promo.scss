@@ -1,0 +1,57 @@
+.promo {
+    height: 650px;
+    background: url('../../img/bg/main_bg.jpg') center center/cover no-repeat;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    &__title {
+        margin-top: 90px;
+        color: #ffffff;
+        font-size: 42px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__sub-title {
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    &__icons {
+        margin-top: 66px;
+        display: flex;
+        justify-content: space-between;
+        width: 430px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 96px;
+        width: 110px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    &__go-catalog {
+        margin-top: 8px;
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        a:link, a:visited {
+            color: #FFF;
+        }
+    }
+}

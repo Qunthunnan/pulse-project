@@ -1,0 +1,17 @@
+@import '../base/variables';
+@import 'general';
+@import 'media';
+
+* {
+    font-family: 'Museo Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 945px;
+    margin: 0px auto;
+}
+@import 'promo';
+@import 'header';
+@import 'button';

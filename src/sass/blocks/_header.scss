@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+
+    a {
+        display: block;
+    }
+
+    &__logo {
+        width: 250px;
+        img {
+            width: 100%;
+        }
+    }
+
+    &__official {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    &__upper-text {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    &__lower-text {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    &__contacts {
+        a {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 700;
+            &:link, &:visited {
+                text-decoration: none;
+            }
+        }
+    }
+}
