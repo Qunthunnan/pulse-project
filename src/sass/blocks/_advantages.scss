@@ -1,0 +1,36 @@
+.advantages {
+    height: 470px;
+    padding: 70px 0px 80px 0px;
+    background-color: #f6f6f6;
+
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__advantage {
+        width: 231px;
+
+        img {
+            display: block;
+            margin: 0px auto;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: black;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    &__text-descr {
+        margin-top: 15px;
+        color: #0d0d0d;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
