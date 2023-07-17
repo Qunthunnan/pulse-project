@@ -1,0 +1,13 @@
+.consultation {
+    height: 680px;
+    background: url('../../img/bg/consultation_bg.jpg') center center/cover no-repeat;
+    padding: 103px 0px 92px 0px;
+
+    &__text-descr {
+        margin-top: 80px;
+        width: 400px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
