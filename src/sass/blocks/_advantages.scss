@@ -34,3 +34,34 @@
         text-align: center;
     }
 }
+
+@media (max-width: 767px) {
+    .advantages {
+        height: 550px;
+        padding: 50px 0px 50px 0px;
+        &__advantage {
+            width: 160px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .advantages {
+        height: 840px;
+        padding: 20px 0px;
+        
+        &__wrapper {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__advantage {
+            margin-top: 15px;
+            width: 200px;
+            img {
+                width: 50px;
+            }
+        }
+    }
+}

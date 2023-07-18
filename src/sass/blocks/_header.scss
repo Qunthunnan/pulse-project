@@ -41,3 +41,47 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        
+        &__upper-text {
+            font-size: 11px;
+        }
+
+        &__lower-text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        
+        &__official {
+            display: none;
+        }
+
+        &__contacts {
+            a {
+                font-size: 11px;
+            }
+        }
+    }
+
+    .button {
+        &_contacts {
+            width: 130px;
+        }
+        &_main {
+            width: 250px;
+            margin-top: 40px;
+        }
+    }
+}

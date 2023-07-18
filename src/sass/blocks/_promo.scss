@@ -55,3 +55,46 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+
+        &__go-catalog {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        background: url(../../img/bg/main_bg.jpg) 60%/600% no-repeat;
+        height: 495px;
+        &__title {
+            margin-top: 50px;
+            font-size: 24px;
+        }
+
+        &__sub-title {
+            font-size: 13px;
+        }
+
+        &__icons {
+            margin-top: 40px;
+            width: 100%;
+        }
+        &__icon {
+            img {
+                width: 35px;
+            }
+            height: 80px;
+            font-size: 11px;
+        }
+
+        &__go-catalog {
+            font-size: 12px;
+        }
+    }
+}

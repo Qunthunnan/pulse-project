@@ -19,3 +19,21 @@
         margin-top: 36px;
     }
 }
+
+@media (max-width: 767px) {
+    .client-form {
+        &_consultation {
+            margin: 0px auto;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .client-form {
+        &_consultation {
+            margin: 0px auto;
+            margin-top: 30px;
+        }
+    }
+}

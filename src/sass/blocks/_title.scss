@@ -10,3 +10,24 @@
         text-align: left;
     }
 }
+
+@media (max-width: 767px) {
+        
+    .title {
+        font-size: 28px;
+        &_consultation {
+            text-align: center;
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+        
+    .title {
+        font-size: 20px;
+        &_consultation {
+            font-size: 17px;
+        }
+    }
+}
