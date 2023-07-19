@@ -16,12 +16,12 @@
 // }
 // alert("НАВЧИЛИСЬ РАХУВАТИ");
 
- function sum(a, b) {
-     alert(a + b);
-}
+//  function sum(a, b) {
+//      alert(a + b);
+// }
 
-let firstNum = prompt("введи перше число", ""),
-    secondNum = prompt("введи друге число", "");
+// let firstNum = prompt("введи перше число", ""),
+//     secondNum = prompt("введи друге число", "");
 
-sum(firstNum, secondNum);
-    
+// sum(firstNum, secondNum);
+

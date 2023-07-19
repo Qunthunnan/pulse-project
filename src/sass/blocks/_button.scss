@@ -27,3 +27,15 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 575px) {
+    .button {
+        &_contacts {
+            width: 130px;
+        }
+        &_main {
+            width: 250px;
+            margin-top: 40px;
+        }
+    }
+}
