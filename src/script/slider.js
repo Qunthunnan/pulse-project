@@ -28,4 +28,3 @@ document.querySelector('.slider__prev-button').addEventListener('click', functio
 document.querySelector('.slider__next-button').addEventListener('click', function () {
     slider.goTo('next');
   });
-
