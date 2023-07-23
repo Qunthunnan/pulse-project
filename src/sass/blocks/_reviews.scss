@@ -1,0 +1,89 @@
+.reviews {
+    min-height: 975px;
+    padding: 50px 0px 70px 0px;
+
+    &__review-block {
+        padding: 50px 0px;
+        border-top: 1px solid #f6f6f6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:first-child {
+            border-top: none;
+        }
+    }
+
+    &__data {
+        width: 660px;
+    }
+
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    &__marathons-count {
+        color: #646464;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__descr {
+        margin-top: 13px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 991px) {
+    .reviews {
+        &__data {
+            width: 515px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .reviews {
+        padding: 40px 0px 50px 0px;
+
+        &__review-block {
+            padding: 40px 0px;
+            img {
+                width: 140px;
+            }
+        }
+
+        &__data {
+            width: 367px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .reviews {
+        padding: 25px 0px 40px 0px;
+
+        &__review-block {
+            flex-direction: column;
+            padding: 40px 0px;
+            img {
+                width: 140px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        &__data {
+            width: 100%
+        }
+
+        &__name {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        &__marathons-count {
+            text-align: center;
+        }
+    }
+}

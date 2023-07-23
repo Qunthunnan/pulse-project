@@ -34,6 +34,15 @@
     }
 }
 
+@media (max-width: 991px) {
+    .button {
+        &_product-card {
+            height: 35px;
+            width: 110px;
+        }
+    }
+}
+
 @media (max-width: 575px) {
     .button {
         &_contacts {

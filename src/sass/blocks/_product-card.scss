@@ -42,7 +42,7 @@
         color: #0d0d0d;
     }
 
-    &__more, &__more:link, &__more:visited, &__back, &__back:link, &__back:visited{
+    &__more, &__more:link, &__more:visited, &__back, &__back:link, &__back:visited {
         position: absolute;
         top: 318px;
         left: 50%;
@@ -109,8 +109,95 @@
             width: 5px;
             position: absolute;
             left: -17px;
-            top: 5px;
+            top: 7px;
             background-color: $main-red;
         }
+    }
+}
+
+@media (max-width: 991px) {
+    .product-card {
+        height: 345px;
+        width: 235px;
+        margin: 20px 12px 0px 0px;
+        padding: 10px 10px 15px 10px;
+
+        &__title-content-active {
+            height: 280px;
+        }
+
+        img {
+            height: 150px;
+        }
+
+        &__descr {
+            margin-top: 4px;
+            font-size: 13px;
+        }
+
+        &__more, &__more:link, &__more:visited, &__back, &__back:link, &__back:visited {
+            top: 256px;
+        }
+
+        &__more-content-active {
+            height: 280px;
+        }
+
+        &__more-item {
+            font-size: 13px;
+            margin-top: 7px;
+            &::before {
+                top: 7px;
+            }
+        }
+
+        &__bottom-wrap {
+            align-items: center;
+            margin-top: 0px;
+            padding-top: 4px;
+        }
+        &__old-price {
+            font-size: 12px;
+        }
+        &__new-price {
+            font-size: 18px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .product-card {
+            &:nth-child(2n) {
+                margin: 20px 0px 0px 0px;
+            }
+            &:nth-child(3n) {
+                margin: 20px 12px 0px 0px;
+            }
+            &:last-child {
+                margin: 20px 0px 0px 0px;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        .product-card {
+            margin: 0px auto;
+            margin-top: 15px;
+            &:first-child {
+                margin-top: 0px;
+            }
+            &:nth-child(2n) {
+                margin: 0px auto;
+                margin-top: 15px;
+            }
+            &:nth-child(3n) {
+                margin: 0px auto;
+                margin-top: 15px;
+            }
+            &:last-child {
+                margin: 0px auto;
+                margin-top: 15px;
+            }
+        }
+
     }
 }
