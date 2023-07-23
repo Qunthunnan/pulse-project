@@ -9,6 +9,10 @@
     font-size: 12px;
     font-weight: 500;
 
+    &:hover {
+        border: 1px solid white;
+    }
+
     &_contacts {
         margin-top: 3px;
     }
@@ -31,7 +35,12 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
+        &:hover {
+            border: 1px solid black;
+        }
     }
+
+
 }
 
 @media (max-width: 991px) {
@@ -39,6 +48,14 @@
         &_product-card {
             height: 35px;
             width: 110px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .button {
+        &:hover {
+            border: none;
         }
     }
 }
@@ -51,6 +68,9 @@
         &_main {
             width: 250px;
             margin-top: 40px;
+        }
+        &:hover {
+            border: none;
         }
     }
 }

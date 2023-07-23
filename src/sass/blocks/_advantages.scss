@@ -1,5 +1,5 @@
 .advantages {
-    height: 470px;
+    min-height: 470px;
     padding: 70px 0px 80px 0px;
     background-color: #f6f6f6;
 
@@ -37,7 +37,7 @@
 
 @media (max-width: 767px) {
     .advantages {
-        height: 550px;
+        min-height: 550px;
         padding: 50px 0px 50px 0px;
         &__advantage {
             width: 160px;
@@ -47,8 +47,8 @@
 
 @media (max-width: 575px) {
     .advantages {
-        height: 840px;
-        padding: 20px 0px;
+        min-height: 840px;
+        padding: 20px 0px 30px 0px;
         
         &__wrapper {
             margin-top: 20px;

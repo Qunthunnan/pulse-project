@@ -11,6 +11,42 @@
     <link rel="stylesheet" href="css/blocks/style.min.css">
 </head>
 <body>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <h2 class="modal__title">Просто заповніть форму заявки</h2>
+            <div class="modal__subtitle">та ми перездвонимо вам протягом 10 хвилин</div>
+            <form class="client-form client-form_modal" action="#">
+                <input name="name" placeholder="Ваше им'я" required type="text">
+                <input name="telephone" placeholder="Ваш телефон" required type="number">
+                <input name="email" placeholder="Ваш E-mail" required type="email">
+
+                <button class="button button_cient-form">замовити кОНСУЛЬТАЦіЮ</button>
+            </form>
+        </div>
+
+        <div class="modal" id="buy">
+            <div class="modal__close">&times;</div>
+            <h2 class="modal__title">Ваше замовлення</h2>
+            <div class="modal__subtitle">Пульсометр Polar</div>
+            <form class="client-form client-form_modal" action="#">
+                <input name="name" placeholder="Ваше им'я" required type="text">
+                <input name="telephone" placeholder="Ваш телефон" required type="number">
+                <input name="email" placeholder="Ваш E-mail" required type="email">
+
+                <button class="button button_cient-form">Купити</button>
+            </form>
+        </div>
+
+        <div class="modal" id="buy-done">
+            <div class="modal__close">&times;</div>
+            <h2 class="modal__title">Дякую за вашу заявку!</h2>
+            <div class="modal__subtitle">Наш менеджер зв'яжеться з вами у найближній час!</div>
+            </form>
+        </div>
+    </div>
+
     <section class="promo">
         <div class="container">
             <header class="header">
@@ -26,7 +62,7 @@
     
                 <div class="header__contacts">
                     <a href="tel:+380999999999">+380 99-999-99-99</a>
-                    <button class="button button_contacts">замовити дзвінок</button>
+                    <button data-modal="consultation" class="button button_contacts">замовити дзвінок</button>
                 </div>
     
             </header>
@@ -51,7 +87,7 @@
                     </div>
                 </div>
                 
-                <button class="button button_main">замовити консультацію</button>
+                <button data-modal="consultation" class="button button_main">замовити консультацію</button>
     
                 <div class="promo__go-catalog">
                     або
@@ -91,7 +127,7 @@
             <h2 class="title title_consultation">Отримайте бескоштовну консультацію<br>по вибору пульсометра</h2>
 
             <div class="consultation__text-descr">
-                Просто заповніть форму заявки<br>та ми передзвонимо вам у протязі 10 хвилин</div>
+                Просто заповніть форму заявки<br>та ми передзвонимо вам протягом 10 хвилин</div>
 
             <form class="client-form client-form_consultation" action="#">
                 <input name="name" placeholder="Ваше им'я" required type="text">
@@ -672,6 +708,20 @@
         </div>
     </section>
 
+    <footer class="footer">
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.616682418517!2d30.520700868295325!3d50.44824016848958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce51271776ad%3A0xb0d410c97b3a4426!2sLviv%20Croissants!5e0!3m2!1suk!2sge!4v1690122520287!5m2!1suk!2sge" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer__contacts">
+            <address>Київ, Хрещатик, 24</address>
+            <a class="footer__phone" href="tel:+380999999999">+380 99 999-99-99</a>
+            <div class="footer__socials">
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-instagram"></span></a>
+                <a href="#"><span class="icon-pinterest"></span></a>
+            </div>
+        </div>
+    </footer>
 
     <!-- <script src="script/test.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -679,5 +729,6 @@
     <script src="script/slider.js"></script>
     <script src="script/tabsCards.js"></script>
     <script src="script/toggleSlide.js"></script>
+    <script src="script/modal.js"></script>
 </body>
 </html>

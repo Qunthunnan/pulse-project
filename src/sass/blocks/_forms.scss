@@ -9,6 +9,7 @@
         color: #4b4b4b;
         font-size: 14px;
         font-weight: 300;
+        border: none;
         border-radius: 5px;
         &:first-child {
             margin-top: 0px;
@@ -17,6 +18,10 @@
 
     &_consultation {
         margin-top: 36px;
+    }
+
+    &_modal {
+        margin-top: 25px;
     }
 }
 

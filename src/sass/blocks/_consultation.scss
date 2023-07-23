@@ -14,7 +14,7 @@
 
 @media (max-width: 767px) {
     .consultation {
-        height: 605px;
+        min-height: 605px;
         padding: 60px 0px 50px 0px;
 
         &__text-descr {
@@ -29,8 +29,8 @@
 
 @media (max-width: 575px) {
     .consultation {
-        height: 455px;
-        padding: 30px 0px 20px 0px;
+        min-height: 355px;
+        padding: 30px 0px 50px 0px;
 
         &__text-descr {
             margin-top: 35px;

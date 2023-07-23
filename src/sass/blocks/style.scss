@@ -1,5 +1,4 @@
 @import '../base/variables';
-@import 'general';
 
 
 * {
@@ -28,12 +27,13 @@
 @import 'advantages';
 @import 'title';
 @import 'red';
-@import '../base/media';
 @import 'consultation';
 @import 'forms';
 @import 'slider';
 @import 'catalog';
 @import 'product-card';
 @import 'reviews';
+@import 'footer';
+@import 'modal';
 
-@import 'media';
+@import '../base/media';
