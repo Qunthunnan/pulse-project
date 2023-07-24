@@ -16,8 +16,21 @@
         }
     }
 
+    &__error {
+        color: $main-red;
+    }
+
+    &__loading {
+        display: none;
+        margin-top: 5px;
+    }
+
     &_consultation {
         margin-top: 36px;
+        .client-form__error, .client-form__loading {
+            color: white;
+        }
+
     }
 
     &_modal {
@@ -34,11 +47,10 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     .client-form {
-        &_consultation {
-            margin: 0px auto;
-            margin-top: 30px;
+        &_modal {
+            width: 100%;
+        }
         }
     }
-}

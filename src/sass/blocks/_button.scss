@@ -8,6 +8,7 @@
     height: 30px;
     font-size: 12px;
     font-weight: 500;
+    cursor: pointer;
 
     &:hover {
         border: 1px solid white;
@@ -24,11 +25,14 @@
         margin-top: 66px;
     }
 
-    &_cient-form {
+    &_client-form, &_modal {
         margin-top: 20px;
         width: 300px;
         height: 55px;
         font-size: 16px;
+        &:hover {
+            border: 1px solid black;
+        }
     }
 
     &_product-card {
@@ -62,6 +66,10 @@
 
 @media (max-width: 575px) {
     .button {
+        &_modal {
+            font-size: 14px;
+            width: 100%;
+        }
         &_contacts {
             width: 130px;
         }

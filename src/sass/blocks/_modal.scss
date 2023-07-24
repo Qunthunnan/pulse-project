@@ -43,4 +43,24 @@
     #buy-done {
         min-height: 140px;
     }
+
+    @media (max-width: 575px) {
+        .modal {
+            width: 80%;
+            padding: 20px;
+
+            &__close {
+                top: 4px;
+                right: 7px;
+            }
+
+            &__title {
+                font-size: 16px;
+            }
+
+            &__subtitle {
+                font-size: 11px;
+            }
+        }
+    }
 }
