@@ -1,0 +1,16 @@
+.to-top {
+    display: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: $main-red;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+    img {
+        display: block;
+        width: 74%;
+        margin: 5px auto;
+    }
+}

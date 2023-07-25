@@ -1,7 +1,9 @@
 $(document).ready(function(){
 
+    // console.log("TEST1");
     function validateForm (form){
-        $(form).validate({
+        // console.log("TEST2");
+        let validation = $(form).validate({
             rules: {
                 name: {
                     required: true,
@@ -27,9 +29,35 @@ $(document).ready(function(){
             },
             errorClass: "client-form__error"
         });
+
+        // console.log("TEST3");
+        return validation.form();
     };
 
-    validateForm('#consultation form');
-    validateForm('#buy form');
-    validateForm('.client-form_consultation');
+
+    $("form").submit(function (e) {
+        // console.log("TESt4");
+        // console.log(e);
+        // console.log(this);
+        e.preventDefault();
+        if(validateForm(this) == true) {
+            $('.client-form__loading').fadeIn();
+        $.ajax({
+            type: "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function () {
+            $(this).find("input").val("");
+            $("form").trigger("reset");
+
+            $('.client-form__loading').fadeOut();
+            $(".overlay .modal").fadeOut('slow');
+            // console.log('preFadeIn');
+            $(".overlay, #buy-done").fadeIn('slow');
+            // console.log('afterFadeIn');
+        })
+        }
+
+        return false;
+    });
 });

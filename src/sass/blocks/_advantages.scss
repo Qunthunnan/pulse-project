@@ -24,6 +24,21 @@
             font-weight: 700;
             text-align: center;
         }
+        &:nth-child(1) {
+            img {
+                animation: gobletfall 1s infinite;
+            }
+        }
+        &:nth-child(2) {
+            img {
+                animation: heartbeat 0.3s infinite;
+            }
+        }
+        &:nth-child(3) {
+            img {
+                animation: run 5s infinite;
+            }
+        }
     }
 
     &__text-descr {

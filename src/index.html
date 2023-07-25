@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="css/bootstrap-grid.min.css"> -->
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/blocks/style.min.css">
 </head>
 <body>
@@ -48,11 +49,13 @@
         </div>
     </div>
 
-    <section class="promo">
+    <a class="to-top" href="#top"><img src="img/icons/chevron-up-solid (1).svg" alt=""></a>
+
+    <section class="promo" id="top">
         <div class="container">
             <header class="header">
 
-                <a href="#" class="header__logo">
+                <a href="#top" class="header__logo">
                     <img src="img/icons/header_logo.png" alt="logo">
                 </a>
     
@@ -92,7 +95,7 @@
     
                 <div class="promo__go-catalog">
                     або
-                    <a href="#">перейти до каталогу</a>
+                    <a href="#catalog">перейти до каталогу</a>
                 </div>
             </div>
 
@@ -153,7 +156,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="container">
             <div class="title">Каталог пульсомерів</div>
 
@@ -165,7 +168,8 @@
                 </ul>
 
                 <div class="catalog__tabs-content catalog__tabs-content-active">
-                    <div class="product-card">
+
+                    <div class="product-card wow animate__animated animate__fadeInLeft">
                         <div class="product-card__title-content product-card__title-content-active">
                             <img src="img/imgs/product_4.jpg" alt="">
                             <h2 class="product-card__title">Пульсометр Polar FT1</h2>
@@ -194,7 +198,7 @@
 
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card wow animate__animated animate__fadeInLeft">
                         <div class="product-card__title-content product-card__title-content-active">
                             <img src="img/imgs/product_4.jpg" alt="">
                             <h2 class="product-card__title">Пульсометр Suunto M2</h2>
@@ -221,7 +225,7 @@
                         </div>
                     </div>
                     
-                    <div class="product-card">
+                    <div class="product-card wow animate__animated animate__fadeInLeft">
                         <div class="product-card__title-content product-card__title-content-active">
                             <img src="img/imgs/product_4.jpg" alt="">
                             <h2 class="product-card__title">Пульсометр Polar FT4</h2>
@@ -249,8 +253,8 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
-                        <div class="product-card__title-content product-card__title-content-active" class="product-card__more"">
+                    <div class="product-card wow animate__animated animate__fadeInLeft">
+                        <div class="product-card__title-content product-card__title-content-active" class="product-card__more">
                             <img src="img/imgs/product_4.jpg" alt="">
                             <h2 class="product-card__title">Пульсометр Polar FT1</h2>
                             <div class="product-card__descr">Для перших кроків у тренуванні, занованих на сердечному ритмі</div>
@@ -277,7 +281,7 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card wow animate__animated animate__fadeInLeft">
                         <div class="product-card__title-content product-card__title-content-active">
                             <img src="img/imgs/product_4.jpg" alt="">
                             <h2 class="product-card__title">Пульсометр Suunto M2</h2>
@@ -305,7 +309,7 @@
                         </div>
                     </div>
 
-                    <div class="product-card">
+                    <div class="product-card wow animate__animated animate__fadeInLeft">
                         <div class="product-card__title-content product-card__title-content-active">
                             <img src="img/imgs/product_4.jpg" alt="">
                             <h2 class="product-card__title">Пульсометр Polar FT4</h2>
@@ -680,7 +684,7 @@
             <div class="title">Відгуки клієнтів</div>
 
             <div class="reviews__reviewers-wrap">
-                <div class="reviews__review-block">
+                <div class="reviews__review-block wow animate__fadeInUp animate__animated">
                     <img src="img/imgs/reviewer_1.png" alt="">
                     <div class="reviews__data">
                         <h2 class="reviews__name">Ірина Іванченко</h2>
@@ -689,7 +693,7 @@
                     </div>
                 </div>
     
-                <div class="reviews__review-block">
+                <div class="reviews__review-block wow animate__fadeInUp animate__animated">
                     <img src="img/imgs/reviewer_2.png" alt="">
                     <div class="reviews__data">
                         <h2 class="reviews__name">Іван Насінник</h2>
@@ -698,7 +702,7 @@
                     </div>
                 </div>
     
-                <div class="reviews__review-block">
+                <div class="reviews__review-block wow animate__fadeInUp animate__animated">
                     <img src="img/imgs/reviewer_3.png" alt="">
                     <div class="reviews__data">
                         <h2 class="reviews__name">Юлія Дашенюк</h2>
@@ -718,9 +722,9 @@
             <address>Київ, Хрещатик, 24</address>
             <a class="footer__phone" href="tel:+380999999999">+380 99 999-99-99</a>
             <div class="footer__socials">
-                <a href="#"><span class="icon-facebook"></span></a>
-                <a href="#"><span class="icon-instagram"></span></a>
-                <a href="#"><span class="icon-pinterest"></span></a>
+                <a href="https://www.facebook.com/"><span class="icon-facebook"></span></a>
+                <a href="https://www.instagram.com/"><span class="icon-instagram"></span></a>
+                <a href="https://www.pinterest.com/"><span class="icon-pinterest"></span></a>
             </div>
         </div>
     </footer>
@@ -728,6 +732,7 @@
     <!-- <script src="script/test.js"></script> -->
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="script/wow.min.js"></script>
     <script src="script/slider.js"></script>
     <script src="script/tabsCards.js"></script>
     <script src="script/toggleSlide.js"></script>
@@ -737,6 +742,6 @@
     <script src="script/validator.js"></script>
     <script src="script/jquery.maskedinput.min.js"></script>
     <script src="script/phone-mask.js"></script>
-    <script src="script/send-mail.js"></script>
+    <script src="script/scroll.js"></script>
 </body>
 </html>
