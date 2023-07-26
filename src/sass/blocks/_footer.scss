@@ -3,8 +3,10 @@
     min-height: 630px;
     line-height: 0px;
     &__map {
+        height: 630px;
         iframe {
-            height: 630px;
+            height: 100%;
+            width: 100%;
         }  
     }
     &__contacts {
@@ -93,6 +95,7 @@
     .footer {
         min-height: 535px;
         &__map {
+            height: 350px;
             iframe {
                 height: 350px;
             }

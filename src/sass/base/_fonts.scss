@@ -4,6 +4,7 @@
     src: url("../fonts/MuseoSansCyrl-300.woff")format("woff"),
     url("../fonts/MuseoSansCyrl-300.woff2") format("woff2");
     font-weight: 300;
+    font-display: swap;
   }
 
 @font-face {
@@ -11,6 +12,7 @@
     src: url("../fonts/MuseoSansCyrl-500.woff");
     src: url("../fonts/MuseoSansCyrl-500.woff")format("woff"),
     url("../fonts/MuseoSansCyrl-500.woff2") format("woff2");
+    font-display: swap;
     font-weight: 500;
 }
 
@@ -19,6 +21,7 @@
     src: url("../fonts/MuseoSansCyrl-700.woff");
     src: url("../fonts/MuseoSansCyrl-700.woff")format("woff"),
     url("../fonts/MuseoSansCyrl-700.woff2") format("woff2");
+    font-display: swap;
     font-weight: 700;
 }
 
