@@ -1,6 +1,6 @@
 .promo {
     height: 650px;
-    background: url('../../img/bg/main_bg.jpg') center center/cover no-repeat;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
 
     &__wrapper {
         display: flex;
@@ -70,7 +70,7 @@
 
 @media (max-width: 575px) {
     .promo {
-        background: url(../../img/bg/main_bg.jpg) 60%/600% no-repeat;
+        background: url(../img/bg/main_bg.jpg) 60%/600% no-repeat;
         height: 495px;
         &__title {
             margin-top: 50px;

@@ -36,9 +36,6 @@ $(document).ready(function(){
 
 
     $("form").submit(function (e) {
-        // console.log("TESt4");
-        // console.log(e);
-        // console.log(this);
         e.preventDefault();
         if(validateForm(this) == true) {
             $('.client-form__loading').fadeIn();
@@ -52,9 +49,7 @@ $(document).ready(function(){
 
             $('.client-form__loading').fadeOut();
             $(".overlay .modal").fadeOut('slow');
-            // console.log('preFadeIn');
             $(".overlay, #buy-done").fadeIn('slow');
-            // console.log('afterFadeIn');
         })
         }
 
