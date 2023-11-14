@@ -56,7 +56,9 @@ gulp.task('mailer', function () {
 
 gulp.task('images', function () {
     return gulp.src("src/img/**/*")
-        .pipe(imagemin())
+        .pipe(imagemin([
+            imagemin.mozjpeg({quality: 90})
+        ]))
         .pipe(gulp.dest("dist/img"));
 });
 
