@@ -25,18 +25,18 @@
             text-align: center;
         }
         &:nth-child(1) {
-            img {
-                animation: gobletfall 1s infinite;
+            .viewed {
+                animation: gobletfall 1s 4;
             }
         }
         &:nth-child(2) {
-            img {
-                animation: heartbeat 0.3s infinite;
+            .viewed {
+                animation: heartbeat 0.5s 8;
             }
         }
         &:nth-child(3) {
-            img {
-                animation: run 2s infinite;
+            .viewed {
+                animation: run 1s 4;
             }
         }
     }

@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 const imagemin = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
+const minify = require('gulp-minify');
 
 gulp.task('server', function() {
 
@@ -30,17 +31,21 @@ gulp.task('styles', function() {
 
 gulp.task('watch', function() {
     gulp.watch("src/sass/**/*.+(scss|sass|css)", gulp.parallel('styles'));
+    gulp.watch("src/script/*.js").on('change', gulp.parallel('scripts'));
     gulp.watch("src/*.html").on('change', gulp.parallel('html'));
 });
 
 gulp.task('html', function () {
     return gulp.src("src/*.html")
-        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
         .pipe(gulp.dest("dist/"));
 });
 
 gulp.task('scripts', function () {
     return gulp.src("src/script/**/*.js")
+        .pipe(minify({
+            noSource: true,
+        }))
         .pipe(gulp.dest("dist/script"));
 });
 

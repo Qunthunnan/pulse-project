@@ -1,0 +1,1 @@
+!function(a){a(function(){a("ul.catalog__tabs-list").on("click","li:not(.catalog__tab-active)",function(){a(this).addClass("catalog__tab-active").siblings().removeClass("catalog__tab-active").closest("div.catalog__tabs").find("div.catalog__tabs-content").removeClass("catalog__tabs-content-active").eq(a(this).index()).addClass("catalog__tabs-content-active")})})}(jQuery);

@@ -14,3 +14,25 @@ $(document).ready(function() {
         return false;
     });
 });
+
+function advantagesImgAnim (entries, observer) {
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting) {
+            console.log('bim');
+            advantagesImgs.forEach((elem)=>{
+                if(elem.className !== 'viewed') {
+                    console.log('bum!');
+                    elem.classList.add('viewed');
+                }
+            });
+        }
+    });
+}
+
+const advantagesSect = document.querySelector('.advantages');
+const advantagesImgs = document.querySelectorAll('.advantages img');
+const observer = new IntersectionObserver(advantagesImgAnim, {
+    threshold: 0.8,
+});
+
+observer.observe(advantagesSect);
