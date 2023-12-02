@@ -5,6 +5,7 @@
 
 # backend
 mailer
+users.json
 
 # testing
 /coverage
