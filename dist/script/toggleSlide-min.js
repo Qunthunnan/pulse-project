@@ -1,1 +1,0 @@
-function toggleSlide(t){$(t).each(function(t){$(this).on("click",function(c){c.preventDefault(),$(".product-card__title-content").eq(t).toggleClass("product-card__title-content-active"),$(".product-card__more-content").eq(t).toggleClass("product-card__more-content-active")})})}toggleSlide(".product-card__more"),toggleSlide(".product-card__back");
