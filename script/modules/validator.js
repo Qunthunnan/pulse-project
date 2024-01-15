@@ -1,5 +1,3 @@
-import jQuery from "jquery";
-window.$ = window.jQuery = jQuery;
 import validate from 'jquery-validation';
 
 export const validator = function () {

@@ -1,6 +1,3 @@
-import jQuery from "jquery";
-window.$ = window.jQuery = jQuery;
-
 export const cards = function () {
    function toggleSlide(item) {
         $(item).each(function(i) {

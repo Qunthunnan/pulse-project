@@ -1,3 +1,6 @@
+import jQuery from 'jquery';
+window.$ = window.jQuery = jQuery;
+
 import {modal} from './modules/modal';
 import {phoneMask} from './modules/phone-mask';
 import {scroll} from './modules/scroll';

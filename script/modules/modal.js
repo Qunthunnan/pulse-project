@@ -1,6 +1,3 @@
-import jQuery from "jquery";
-window.$ = window.jQuery = jQuery;
-
 export const modal = function () {
     $('[data-modal=consultation]').on('click', function() {
         $('.overlay, #consultation').fadeIn('slow');
