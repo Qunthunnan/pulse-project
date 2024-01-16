@@ -1,0 +1,34 @@
+mixin cardStart(imageLoc, name, descr, cardMoreInfoList, oldPrice, newPrice)
+	.product-card.wow.animate__animated.animate__fadeInLeft
+		.product-card__title-content.product-card__title-content-active
+			img(src=require(imageLoc) alt='')
+			h2.product-card__title=name
+			.product-card__descr=descr
+			span.product-card__more=ditictionary['product-card__more'][lang]
+		.product-card__more-content
+			ul.product-card__more-list
+				each val in cardMoreInfoList
+					li.product-card__more-item=val
+			span.product-card__back=ditictionary['product-card__back'][lang]
+		.product-card__bottom-wrap
+			.product-card__price-wrap
+				.product-card__old-price=oldPrice + '₴'
+				.product-card__new-price=newPrice + '₴'
+			button.button.button_product-card=ditictionary['button_product-card'][lang]
+mixin card(imageLoc, name, descr, cardMoreInfoList, oldPrice, newPrice)
+	.product-card
+		.product-card__title-content.product-card__title-content-active
+			img(src=require(imageLoc) alt='')
+			h2.product-card__title=name
+			.product-card__descr=descr
+			span.product-card__more=ditictionary['product-card__more'][lang]
+		.product-card__more-content
+			ul.product-card__more-list
+				each val in cardMoreInfoList
+					li.product-card__more-item=val
+			span.product-card__back=ditictionary['product-card__back'][lang]
+		.product-card__bottom-wrap
+			.product-card__price-wrap
+				.product-card__old-price=oldPrice + '₴'
+				.product-card__new-price=newPrice + '₴'
+			button.button.button_product-card=ditictionary['button_product-card'][lang]

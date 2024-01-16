@@ -1,6 +1,254 @@
 {
-    "socials_text": {
-        "uk": "Соціальні мережі:",
-        "en": "Socials:"
+    "modal__title": {
+        "uk": "Просто заповніть форму заявки",
+        "en": "Just fill out the application form"
+    },
+    "modal__subtitle": {
+        "uk": "та ми передзвонимо вам протягом 10 хвилин",
+        "en": "and we will call you back within 10 minutes"
+    },
+    "placeholderName": {
+        "uk": "Ваше ім'я",
+        "en": "Your name"
+    },
+    "placeholderPhone": {
+        "uk": "Ваш телефон",
+        "en": "Your phone"
+    },
+    "placeholderEmail": {
+        "uk": "Ваш E-mail",
+        "en": "Your e-mail"
+    },
+    "button_modal": {
+        "uk": "Замовити консультацію",
+        "en": "Order a consultation"
+    },
+    "client-form__loading": {
+        "uk": "Секундочку, записую...",
+        "en": "Just a second, I'm writing..."
+    },
+    "modal__title-Order": {
+        "uk": "Ваше замовлення",
+        "en": "Your order"
+    },
+    "modal__subtitle-Order": {
+        "uk": "Пульсометр Polar",
+        "en": "Pulsometer Polar"
+    },
+    "client-form__loading-Buy": {
+        "uk": "Секундочку, записую...",
+        "en": "Just a second, I'm writing..."
+    },
+    "modal__title-Thnx": {
+        "uk": "Дякую за вашу заявку!",
+        "en": "Thank you for your application!"
+    },
+    "modal__subtitle-Thnx": {
+        "uk": "Наш менеджер зв'яжеться з вами найближчим часом!",
+        "en": "Our manager will contact you soon!"
+    },
+    "header__upper-text": {
+        "uk": "Офіційний представник",
+        "en": "Official representative"
+    },
+    "header__lower-text": {
+        "uk": "просто",
+        "en": "simply"
+    },
+    "button_contacts": {
+        "uk": "замовити дзвінок",
+        "en": "order a call"
+    },
+    "promo__title": {
+        "uk": "Підбір ПУЛЬСОМЕТРА",
+        "en": "Selection of PULSE METER"
+    },
+    "promo__sub-title": {
+        "uk": "з урахуванням вашого рівня підготовки",
+        "en": "taking into account your level of training"
+    },
+    "promo__icon-Time": {
+        "uk": "Час підбору: 10 хвилин",
+        "en": "Selection time: 10 minutes"
+    },
+    "promo__icon-Free": {
+        "uk": "Безкоштовне доставлення",
+        "en": "Free shipping"
+    },
+    "promo__icon-Questions": {
+        "uk": "Відповімо на усі питання",
+        "en": "We will answer all questions"
+    },
+    "button_main": {
+        "uk": "Замовити консультацію",
+        "en": "Order a consultation"
+    },
+    "catalog": {
+        "uk": "перейти до каталогу",
+        "en": "go to the catalog"
+    },
+    "title": {
+        "uk": "НАШІ ПЕРЕВАГИ",
+        "en": "OUR ADVANTAGES"
+    },
+    "advantages__advantage-Experience": {
+        "uk": "Ділимося досвідом",
+        "en": "We share our experience"
+    },
+    "advantages__text-descr-Experience": {
+        "uk": "Наші співробітники завжди готові поділитися своїм досвідом, тому що самі бігають півмарафони, переплили Босфор, готуються до змагань з тріатлону!",
+        "en": "Our employees are always ready to share their experience, because they themselves run half-marathons, swam across the Bosphorus, and prepare for triathlon competitions!"
+    },
+    "advantages__advantage-Health": {
+        "uk": "Піклуємося про здоров'я",
+        "en": "We care about health"
+    },
+    "advantages__text-descr-Health": {
+        "uk": "Ми працюємо за для того, щоби ваші зайняття спортом йшли на користь вашому здоров'ю та були у радість вам та вашім близьким!",
+        "en": "We work to ensure that your sports activities benefit your health and bring joy to you and your loved ones!"
+    },
+    "advantages__advantage-Run": {
+        "uk": "Вчимо бігати",
+        "en": "We teach to run"
+    },
+    "advantages__text-descr-Run": {
+        "uk": "Допомагаємо з навчанням правильної техніки бігу! Дружимо з найбільшою школою бігунів в Україні - ",
+        "en": "We help with learning the correct running technique! We are friends with the largest running school in Ukraine -"
+    },
+    "title_consultation": {
+        "uk": "Отримайте безкоштовну консультацію",
+        "en": "Get a free consultation"
+    },
+    "title_consultation-2": {
+        "uk": "по вибору пульсометра",
+        "en": "by choosing a heart rate monitor"
+    },
+    "consultation__text-descr": {
+        "uk": "Просто заповніть форму заявки",
+        "en": "Just fill out the application form"
+    },
+    "consultation__text-descr2": {
+        "uk": "та ми передзвонимо вам протягом 10 хвилин",
+        "en": "and we will call you back within 10 minutes"
+    },
+    "button_client-form": {
+        "uk": "замовити кОНСУЛЬТАЦіЮ",
+        "en": "order a CONSULTATION"
+    },
+    "client-form__loading-Consultation": {
+        "uk": "Секундочку, записую...",
+        "en": "Just a second, I'm writing..."
+    },
+    "catalog_title": {
+        "uk": "Каталог пульсометрів",
+        "en": "Catalog of pulsometers"
+    },
+    "catalog__tab1": {
+        "uk": "Для фітнесу",
+        "en": "For fitness"
+    },
+    "catalog__tab2": {
+        "uk": "для бігу",
+        "en": "for running"
+    },
+    "catalog__tab3": {
+        "uk": "для тріатлону",
+        "en": "for triathlon"
+    },
+    "product-card__more": {
+        "uk": "Подробніше",
+        "en": "More detail"
+    },
+    "product-card__back": {
+        "uk": "Назад",
+        "en": "Back"
+    },
+    "button_product-card": {
+        "uk": "КУПИТИ",
+        "en": "BUY"
+    },
+    "title-Reviews": {
+        "uk": "Відгуки клієнтів",
+        "en": "Customer reviews"
+    },
+    "reviews__name-1": {
+        "uk": "Ірина Іванченко",
+        "en": "Iryna Ivanchenko"
+    },
+    "reviews__marathons-count-1": {
+        "uk": "2 півмарафони",
+        "en": "2 half marathons"
+    },
+    "reviews__descr-1": {
+        "uk": "Не знала, що собі купити - звернулася до RunSmart - підібрали пульсометр, який підійшов саме під мої цілі та фінансові можливості. Через деякий час вирішила оновити ґаджет - довго не роздумуючи, звернулась також до них.",
+        "en": "I didn't know what to buy - I turned to RunSmart - they selected a heart rate monitor that suited my goals and financial capabilities. After some time, I decided to update the gadget - without thinking for a long time, I also turned to them."
+    },
+    "reviews__descr-1-1": {
+        "uk": "Нові цілі - новий ґаджет!",
+        "en": "New goals - new gadget!"
+    },
+    "reviews__descr-1-2": {
+        "uk": "Дякую, RunSmart!",
+        "en": "Thank you, RunSmart!"
+    },
+    "reviews__name-2": {
+        "uk": "Іван Насінник",
+        "en": "Ivan Nasinnyk"
+    },
+    "reviews__marathons-count-2": {
+        "uk": "1 півмарафон",
+        "en": "1 half marathon"
+    },
+    "reviews__descr-2": {
+        "uk": "Крута штука – пульсометр. Зазвичай без них бігав. Виявляється, тільки гірше собі робив. Купив пульсометр, ще подарунок отримав тренування. Зі мною разом провели перше тренування, навчили користуватися новим пристроєм. Також пояснили основи анатомії, склали план тренувань на місяць уперед.",
+        "en": "A cool thing is a heart rate monitor. I usually ran without them. It turns out that he only made himself worse. I bought a heart rate monitor, and received training as a gift. They conducted the first training together with me, taught me how to use the new device. They also explained the basics of anatomy, made a training plan for a month ahead."
+    },
+    "reviews__descr-2-1": {
+        "uk": "З ними підготувався до свого першого півмарафону! Дякую!!!",
+        "en": "I prepared for my first half marathon with them! Thank you!!!"
+    },
+    "reviews__name-3": {
+        "uk": "Юлія Дашенюк",
+        "en": "Julia Dasheniuk"
+    },
+    "reviews__marathons-count-3": {
+        "uk": "2 півмарафони",
+        "en": "2 half marathons"
+    },
+    "reviews__descr-3": {
+        "uk": "Довго не могла почати бігати, оскільки раніше кілька разів починала, але ставало важко і я кидала. Від друзів почула про RunSmart і про біг із контролем пульсу і вирішила спробувати.",
+        "en": "I could not start running for a long time, as I had started several times before, but it became difficult and I gave up. I heard about RunSmart and running with heart rate control from friends and decided to try it.  "
+    },
+    "reviews__descr-3-1": {
+        "uk": "Подзвонила, хлопці поцікавилися моїми цілями та підібрали дуже цікавий варіант зі знижкою! Тепер бігаю і насолоджуюся бігом! Пробігла вже 2 півмарафони й кілька коротших забігів і не має наміру зупинятися!",
+        "en": "I called, the guys asked about my goals and picked up a very interesting option with a discount! Now I run and enjoy running! She has already run 2 half marathons and several shorter races and has no intention of stopping!"
+    },
+    "reviews__descr-3-2": {
+        "uk": "Дякую!!!",
+        "en": "Thank you!!!"
+    },
+    "address": {
+        "uk": "Київ, Хрещатик, 24",
+        "en": "Kyiv, Khreschatyk, 24"
+    },
+    "messagesNameLength": {
+        "uk": "Мінімальна кількість букв для імені: 2",
+        "en": "Minimum number of letters for the name: 2"
+    },
+    "messagesName": {
+        "uk": "Будь ласка, напишіть своє ім'я",
+        "en": "Please write your name"
+    },
+    "messagesPhone": {
+        "uk": "Будь ласка, напишіть свій телефон",
+        "en": "Please write your phone number"
+    },
+    "messagesEmail": {
+        "uk": "Будь ласка, напишіть свою електронну скриньку",
+        "en": "Please enter your email address"
+    },
+    "messagesEmailCorrect": {
+        "uk": "Перевірте, чи правильно написана адреса, не забудьте @",
+        "en": "Check that the address is spelled correctly, don't forget the @"
     }
 }

@@ -1,4 +1,6 @@
 import validate from 'jquery-validation';
+const ditictionary = require('../../ditictionary.json');
+const lang = document.documentElement.getAttribute('lang');
 
 export const validator = function () {
     // console.log("TEST1");
@@ -19,13 +21,13 @@ export const validator = function () {
             },
             messages: {
                 name: {
-                    minlength: "Мінімальна кількість букв для імені: 2",
-                    required: "Будь ласка, напишіть своє ім'я"
+                    minlength: ditictionary['messagesNameLength'][lang],
+                    required: ditictionary['messagesName'][lang],
                 },
-                telephone: "Будь ласка, напишіть свій телефон",
+                telephone: ditictionary['messagesPhone'][lang],
                 email: {
-                    required: "Будь ласка, напишіть свою електронну скриньку",
-                    email: "Перевірте, чи правильно написана адреса, не забудьте @"
+                    required: ditictionary['messagesEmail'][lang],
+                    email: ditictionary['messagesEmailCorrect'][lang],
                 }
             },
             errorClass: "client-form__error"

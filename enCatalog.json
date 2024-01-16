@@ -1,0 +1,236 @@
+[
+    {
+        "imageLoc": "../img/imgs/product_img0.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img1.jpg",
+        "name": "Pulsometer Suunto M2",
+        "descr": "An entry-level heart rate monitor with a comfortable woven strap",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 500",
+        "newPrice": "3 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img2.jpg",
+        "name": "Pulsometer Polar FT4",
+        "descr": "An improved version of the Polar FT1, which has the following improvements:",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 700",
+        "newPrice": "3 500"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img3.jpg",
+        "name": "Pulsometer Suunto M2",
+        "descr": "An entry-level heart rate monitor with a comfortable woven strap",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 500",
+        "newPrice": "3 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img4.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img5.jpg",
+        "name": "Pulsometer Polar FT4",
+        "descr": "An improved version of the Polar FT1, which has the following improvements:",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 700",
+        "newPrice": "3 500"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img6.jpg",
+        "name": "Pulsometer Polar FT4",
+        "descr": "An improved version of the Polar FT1, which has the following improvements:",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 700",
+        "newPrice": "3 500"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img7.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img8.jpg",
+        "name": "Pulsometer Suunto M2",
+        "descr": "An entry-level heart rate monitor with a comfortable woven strap",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 500",
+        "newPrice": "3 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img0.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img1.jpg",
+        "name": "Pulsometer Suunto M2",
+        "descr": "An entry-level heart rate monitor with a comfortable woven strap",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 500",
+        "newPrice": "3 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img2.jpg",
+        "name": "Pulsometer Polar FT4",
+        "descr": "An improved version of the Polar FT1, which has the following improvements:",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 700",
+        "newPrice": "3 500"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img3.jpg",
+        "name": "Pulsometer Suunto M2",
+        "descr": "An entry-level heart rate monitor with a comfortable woven strap",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 500",
+        "newPrice": "3 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img4.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img5.jpg",
+        "name": "Pulsometer Polar FT4",
+        "descr": "An improved version of the Polar FT1, which has the following improvements:",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 700",
+        "newPrice": "3 500"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img6.jpg",
+        "name": "Pulsometer Polar FT4",
+        "descr": "An improved version of the Polar FT1, which has the following improvements:",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "3 700",
+        "newPrice": "3 500"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img7.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    },
+    {
+        "imageLoc": "../img/imgs/product_img8.jpg",
+        "name": "Pulsometer Polar FT1",
+        "descr": "For the first steps in heart rate-based training",
+        "cardMoreInfoList": [
+            "You will hear a sound notification about the desired heart rate during training;",
+            "You will see an informative graphic indicator of target heart rate training zones;",
+            "You will also see information about calories burned during training;;",
+            "You will be able to see the data for 10 workouts;"
+        ],
+        "oldPrice": "2 300",
+        "newPrice": "2 000"
+    }
+]
