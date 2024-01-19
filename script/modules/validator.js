@@ -42,10 +42,13 @@ export const validator = function () {
         e.preventDefault();
         if(validateForm(this) == true) {
             $('.client-form__loading').fadeIn();
+            const formData = new FormData(e.target);
+            formData.append('lang', lang);
+            const userData = $.param(Object.fromEntries(formData.entries()));
         $.ajax({
             type: "POST",
-            url: "mailer/smart.php",
-            data: $(this).serialize()
+            url: "/pulse/smart.php",
+            data: userData
         }).done(function () {
             $(this).find("input").val("");
             $("form").trigger("reset");

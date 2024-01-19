@@ -87,6 +87,10 @@
         "uk": "перейти до каталогу",
         "en": "go to the catalog"
     },
+    "or": {
+        "uk": "або ",
+        "en": "or "
+    },
     "title": {
         "uk": "НАШІ ПЕРЕВАГИ",
         "en": "OUR ADVANTAGES"
